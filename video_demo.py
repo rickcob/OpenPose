@@ -107,7 +107,7 @@ def stageT_block(x, num_p, stage, branch):
 
     return x
 
-weights_path = "weights0100.h5"  # orginal weights converted from caffe
+weights_path = "/home/richard/Scripts/models/weights0100.h5"  # orginal weights converted from caffe
 # weights_path = "training/weights.best.h5" # weights tarined from scratch
 
 input_shape = (None, None, 3)
